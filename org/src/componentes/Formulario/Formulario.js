@@ -31,7 +31,7 @@ const Formulario = (props) => {
             <CampoTexto
                 titulo="Nombre"
                 placeholder="Ingresar nombre"
-                required
+                required 
                 valor={nombre}
                 actualizarValor={actualizarNombre}
             />
